@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+resto = Restaurant.create(name: 'burger house', address: 'Nantes', phone_number: '0220542348', category: 'french')
+resto_two = Restaurant.create(name: 'tiny burger', address: 'Bruxelles', phone_number: '0242348', category: 'belgian')
